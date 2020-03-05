@@ -26,7 +26,7 @@ client.on('message', message => {
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}`)
     //client.channels.get('518473049197117445').send(`Logged in as ${client.user.tag}`)
-})
+});
 
 
-client.login(process.env.token)
+client.login(process.env.BOT_TOKEN);
